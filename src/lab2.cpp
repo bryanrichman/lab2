@@ -68,7 +68,7 @@ int illegalStatements() {
 
     enum gender {m, f};
     int call_me () {
-        string friend_gender;
+        int friend_gender;
         string friend_name;
         cout <<"Enter friend name and 0 for male, 1 for female \n";
         cin >> friend_name >> friend_gender;
